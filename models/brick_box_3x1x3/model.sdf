@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="brick_box_3x1x3">
+    <static>true</static>
+    <link name="chassis">
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>3 0.5 3</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
+            <scale>3 0.5 3</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
