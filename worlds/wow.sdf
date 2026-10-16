@@ -81,11 +81,11 @@
         <pose>0 0 0 0 0 0</pose>
         <collision name="holme_collision">
           <pose>0 0 0 0 0 0.785</pose>
-          <geometry><mesh><uri>file:///home/shino/ros2_ws/src/snowbot123/worlds/Holm.stl</uri><scale>0.12 0.12 0.12</scale></mesh></geometry>
+          <geometry><mesh><uri>package://snowbot123/worlds/Holm.stl</uri><scale>0.12 0.12 0.12</scale></mesh></geometry>
         </collision>
         <visual name="holme">
           <pose>0 0 0 0 0 0.785</pose> 
-          <geometry><mesh><uri>file:///home/shino/ros2_ws/src/snowbot123/worlds/Holm.stl</uri><scale>0.12 0.12 0.12</scale></mesh></geometry>
+          <geometry><mesh><uri>package://snowbot123/worlds/Holm.stl</uri><scale>0.12 0.12 0.12</scale></mesh></geometry>
           <material><ambient>0.7 0.7 0.7 1</ambient><diffuse>0.7 0.7 0.7 1</diffuse></material>
         </visual>
       </link>
@@ -98,11 +98,11 @@
         <pose>1.2 1.2 0 0 0 2.35</pose>
         <collision name="pipe_collision">
           <pose>0 0 0 0 0 0.785</pose>
-          <geometry><mesh><uri>file:///home/shino/ros2_ws/src/snowbot123/worlds/Pipe.stl</uri><scale>0.033 0.033 0.033</scale></mesh></geometry>
+          <geometry><mesh><uri>package://snowbot123/worlds/Pipe.stl</uri><scale>0.033 0.033 0.033</scale></mesh></geometry>
         </collision>
         <visual name="pipe">
           <pose>0 0 0 0 0 0.785</pose>
-          <geometry><mesh><uri>file:///home/shino/ros2_ws/src/snowbot123/worlds/Pipe.stl</uri><scale>0.033 0.033 0.033</scale></mesh></geometry>
+          <geometry><mesh><uri>package://snowbot123/worlds/Pipe.stl</uri><scale>0.033 0.033 0.033</scale></mesh></geometry>
           <material><ambient>0.7 0.7 0.7 1</ambient><diffuse>0.7 0.7 0.7 1</diffuse></material>
         </visual>
         <visual name="qr">
@@ -119,11 +119,11 @@
         <pose>-1.2 1.2 0 0 0 -2.35</pose>
         <collision name="pipe_collision">
           <pose>0 0 0 0 0 0.785</pose>
-          <geometry><mesh><uri>file:///home/shino/ros2_ws/src/snowbot123/worlds/Pipe.stl</uri><scale>0.033 0.033 0.033</scale></mesh></geometry>
+          <geometry><mesh><uri>package://snowbot123/worlds/Pipe.stl</uri><scale>0.033 0.033 0.033</scale></mesh></geometry>
         </collision>
         <visual name="pipe">
           <pose>0 0 0 0 0 0.785</pose>
-          <geometry><mesh><uri>file:///home/shino/ros2_ws/src/snowbot123/worlds/Pipe.stl</uri><scale>0.033 0.033 0.033</scale></mesh></geometry>
+          <geometry><mesh><uri>package://snowbot123/worlds/Pipe.stl</uri><scale>0.033 0.033 0.033</scale></mesh></geometry>
           <material><ambient>0.7 0.7 0.7 1</ambient><diffuse>0.7 0.7 0.7 1</diffuse></material>
         </visual>
         <visual name="qr">
@@ -140,11 +140,11 @@
         <pose>1.2 -1.2 0 0 0 0.78</pose>
         <collision name="pipe_collision">
           <pose>0 0 0 0 0 0.785</pose>
-          <geometry><mesh><uri>file:///home/shino/ros2_ws/src/snowbot123/worlds/Pipe.stl</uri><scale>0.033 0.033 0.033</scale></mesh></geometry>
+          <geometry><mesh><uri>package://snowbot123/worlds/Pipe.stl</uri><scale>0.033 0.033 0.033</scale></mesh></geometry>
         </collision>
         <visual name="pipe">
           <pose>0 0 0 0 0 0.785</pose>
-          <geometry><mesh><uri>file:///home/shino/ros2_ws/src/snowbot123/worlds/Pipe.stl</uri><scale>0.033 0.033 0.033</scale></mesh></geometry>
+          <geometry><mesh><uri>package://snowbot123/worlds/Pipe.stl</uri><scale>0.033 0.033 0.033</scale></mesh></geometry>
           <material><ambient>0.7 0.7 0.7 1</ambient><diffuse>0.7 0.7 0.7 1</diffuse></material>
         </visual>
         <visual name="qr">
@@ -161,11 +161,11 @@
         <pose>-1.2 -1.2 0 0 0 -0.78</pose>
         <collision name="pipe_collision">
           <pose>0 0 0 0 0 0.785</pose>
-          <geometry><mesh><uri>file:///home/shino/ros2_ws/src/snowbot123/worlds/Pipe.stl</uri><scale>0.033 0.033 0.033</scale></mesh></geometry>
+          <geometry><mesh><uri>package://snowbot123/worlds/Pipe.stl</uri><scale>0.033 0.033 0.033</scale></mesh></geometry>
         </collision>
         <visual name="pipe">
           <pose>0 0 0 0 0 0.785</pose>
-          <geometry><mesh><uri>file:///home/shino/ros2_ws/src/snowbot123/worlds/Pipe.stl</uri><scale>0.033 0.033 0.033</scale></mesh></geometry>
+          <geometry><mesh><uri>package://snowbot123/worlds/Pipe.stl</uri><scale>0.033 0.033 0.033</scale></mesh></geometry>
           <material><ambient>0.7 0.7 0.7 1</ambient><diffuse>0.7 0.7 0.7 1</diffuse></material>
         </visual>
         <visual name="qr">
