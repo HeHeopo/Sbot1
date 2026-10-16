@@ -75,7 +75,7 @@
       <origin xyz="0 0 0" rpy="1.5707 0 0"/>
       <geometry>
         <!-- <sphere radius=".1"/> -->
-        <mesh filename="file:///home/shino/ros2_ws/src/snowbot123/meshes/mecanum_wheel_left.STL" scale="0.002 .002 0.002"/>
+        <mesh filename="package://snowbot123/meshes/mecanum_wheel_left.STL" scale="0.002 .002 0.002"/>
       </geometry>
       <material name="green"/>
     </visual>
@@ -111,7 +111,7 @@
       <origin xyz="0 0 0" rpy="1.5707 0 0"/>
       <geometry>
         <!-- <sphere radius=".1"/> -->
-        <mesh filename="file:///home/shino/ros2_ws/src/snowbot123/meshes/mecanum_wheel_right.STL" scale="0.002 .002 0.002"/>
+        <mesh filename="package://snowbot123/meshes/mecanum_wheel_right.STL" scale="0.002 .002 0.002"/>
       </geometry>
       <material name="green"/>
     </visual>
@@ -147,7 +147,7 @@
       <origin xyz="0 0 0" rpy="1.5707 0 0"/>
       <geometry>
         <!-- <sphere radius=".1"/> -->
-        <mesh filename="file:///home/shino/ros2_ws/src/snowbot123/meshes/mecanum_wheel_right.STL" scale="0.002 .002 0.002"/>
+        <mesh filename="package://snowbot123/meshes/mecanum_wheel_right.STL" scale="0.002 .002 0.002"/>
       </geometry>
       <material name="green"/>
     </visual>
@@ -183,7 +183,7 @@
       <origin xyz="0 0 0" rpy="1.5707 0 0"/>
       <geometry>
         <!-- <sphere radius=".1"/> -->
-        <mesh filename="file:///home/shino/ros2_ws/src/snowbot123/meshes/mecanum_wheel_left.STL" scale="0.002 .002 0.002"/>
+        <mesh filename="package://snowbot123/meshes/mecanum_wheel_left.STL" scale="0.002 .002 0.002"/>
       </geometry>
       <material name="green"/>
     </visual>

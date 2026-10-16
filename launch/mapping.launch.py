@@ -11,7 +11,10 @@ def generate_launch_description():
     pkg_diff_drive_robot = get_package_share_directory('snowbot123')
 
     gazebo_models_path, ignore_last_dir = os.path.split(pkg_diff_drive_robot)
-    os.environ["GZ_SIM_RESOURCE_PATH"] += os.pathsep + gazebo_models_path
+    if "GZ_SIM_RESOURCE_PATH" in os.environ:
+        os.environ["GZ_SIM_RESOURCE_PATH"] += os.pathsep + gazebo_models_path
+    else:
+        os.environ["GZ_SIM_RESOURCE_PATH"] = gazebo_models_path
 
     sim_time_arg = DeclareLaunchArgument(
         'use_sim_time', default_value='True',

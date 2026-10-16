@@ -20,10 +20,11 @@ def generate_launch_description():
     world_path = os.path.join(pkg_share, 'worlds', 'wow.sdf')
 
     models_path = os.path.join(pkg_share, 'models')
+    gz_resource_path = models_path + os.pathsep + os.path.dirname(pkg_share)
     if 'GZ_SIM_RESOURCE_PATH' in os.environ:
-        os.environ['GZ_SIM_RESOURCE_PATH'] = models_path + ':' + os.environ['GZ_SIM_RESOURCE_PATH']
+        os.environ['GZ_SIM_RESOURCE_PATH'] = gz_resource_path + os.pathsep + os.environ['GZ_SIM_RESOURCE_PATH']
     else:
-        os.environ['GZ_SIM_RESOURCE_PATH'] = models_path
+        os.environ['GZ_SIM_RESOURCE_PATH'] = gz_resource_path
 
     rsp = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(

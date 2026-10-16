@@ -126,7 +126,7 @@ ros2 topic echo /odometry/filtered --once
 ```
 ## Структура пакета
 ```
-snowbot123/
+Sbot1/
 ├── CMakeLists.txt
 ├── package.xml
 ├── README.md

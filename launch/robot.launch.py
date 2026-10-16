@@ -47,12 +47,13 @@ def generate_launch_description():
 
     # Get the models path for Gazebo resource path
     models_path = os.path.join(get_package_share_directory(package_name), 'models')
-    
-    # Add models path to GZ_SIM_RESOURCE_PATH
+
+    # Add models path and package share dir (for package://snowbot123/... URIs) to GZ_SIM_RESOURCE_PATH
+    gz_resource_path = models_path + os.pathsep + os.path.dirname(get_package_share_directory(package_name))
     if 'GZ_SIM_RESOURCE_PATH' in os.environ:
-        os.environ['GZ_SIM_RESOURCE_PATH'] = models_path + ':' + os.environ['GZ_SIM_RESOURCE_PATH']
+        os.environ['GZ_SIM_RESOURCE_PATH'] = gz_resource_path + os.pathsep + os.environ['GZ_SIM_RESOURCE_PATH']
     else:
-        os.environ['GZ_SIM_RESOURCE_PATH'] = models_path
+        os.environ['GZ_SIM_RESOURCE_PATH'] = gz_resource_path
 
     # Launch the gazebo server to initialize the simulation
     gazebo_server = IncludeLaunchDescription(
